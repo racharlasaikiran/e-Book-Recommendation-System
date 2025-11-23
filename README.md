@@ -30,12 +30,10 @@ Sort them,
 Return the top 10 most similar books.
 
 ### Installation & Running
+```bash
 git clone <repo-url>
-
 cd Books-Recommendation-System
-
 pip install -r requirements.txt
-
 jupyter notebook "Books recommendation.ipynb"
 
 
