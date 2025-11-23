@@ -6,26 +6,26 @@ The goal of this project is to build a recommendation system that suggests books
 The model analyzes the features of each book and calculates similarity scores between them using sklearn’s cosine similarity.
 
 ### Tech Stack
-Python
-Pandas, NumPy
-Matplotlib, Seaborn
-Scikit-Learn
+Python,
+Pandas, NumPy,
+Matplotlib, Seaborn,
+Scikit-Learn,
 Jupyter Notebook
 
 ### Approach
-- Data Preprocessing
-Loaded dataset using pandas
-Renamed inconsistent columns
-Dropped unnecessary fields such as "Unnamed: 12"
-Cleaned missing data
+- Data Preprocessing :- 
+Loaded dataset using pandas,
+Renamed inconsistent columns,
+Dropped unnecessary fields such as "Unnamed: 12",
+Cleaned missing data,
 Extracted relevant book features
 
-- Feature Engineering
-Converted categorical text data into numerical feature vectors
+- Feature Engineering :- 
+Converted categorical text data into numerical feature vectors,
 Prepared a matrix suitable for similarity calculation
 
-- Cosine Similarity Model
-Compute all similarity scores
-Sort them
+- Cosine Similarity Model :- 
+Compute all similarity scores,
+Sort them,
 Return the top 10 most similar books
 
