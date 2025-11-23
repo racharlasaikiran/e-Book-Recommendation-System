@@ -10,7 +10,7 @@ Python,
 Pandas, NumPy,
 Matplotlib, Seaborn,
 Scikit-Learn,
-Jupyter Notebook
+Jupyter Notebook.
 
 ### Approach
 - Data Preprocessing :- 
@@ -18,14 +18,21 @@ Loaded dataset using pandas,
 Renamed inconsistent columns,
 Dropped unnecessary fields such as "Unnamed: 12",
 Cleaned missing data,
-Extracted relevant book features
+Extracted relevant book features.
 
 - Feature Engineering :- 
 Converted categorical text data into numerical feature vectors,
-Prepared a matrix suitable for similarity calculation
+Prepared a matrix suitable for similarity calculation.
 
 - Cosine Similarity Model :- 
 Compute all similarity scores,
 Sort them,
-Return the top 10 most similar books
+Return the top 10 most similar books.
+
+### Installation & Running
+git clone <repo-url>
+cd Books-Recommendation-System
+pip install -r requirements.txt
+jupyter notebook "Books recommendation.ipynb"
+
 
