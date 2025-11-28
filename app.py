@@ -54,3 +54,4 @@ if selected_book:
         🌐 Language: {row['language_code']}
         ---
         """)
+
