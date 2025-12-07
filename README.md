@@ -29,6 +29,6 @@ Compute all similarity scores,
 Sort them,
 Return the top 10 most similar books.
 
-## Due to large size, data is uploaded in drive 
+## Due to large size, similarity.pkl file is uploaded in drive 
 https://drive.google.com/drive/folders/1j4StICBI4_oDsq0hbeJVm_3wxPcfOT1z?usp=drive_link
 
